@@ -7,8 +7,9 @@ body{
 h1{
     text-align: center;
     color:#e1efff;
-    text-shadow:2px 0 #fff, -2px 0 #fff, 0 2px #fff, 0 -2px #fff,
-    1px 1px #fff, -1px -1px #fff, 1px -1px #fff, -1px 1px #fff;
+    /*Esto lo agrego Majo*/
+    /*text-shadow:2px 0 #fff, -2px 0 #fff, 0 2px #fff, 0 -2px #fff,
+    1px 1px #fff, -1px -1px #fff, 1px -1px #fff, -1px 1px #fff;*/
     background-color: #09324f;
     font-size: 36px;
     margin: 4px;
