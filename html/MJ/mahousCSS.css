@@ -1,0 +1,58 @@
+/* importando fuentes */ 
+@font-face {
+    font-family: Bitter;
+    src: url(/html/MJ/fonts/Bitter.ttf);
+ }
+
+
+@font-face {
+    font-family: OpenSans;
+    src: url(/html/MJ/fonts/OpenSans.ttf);
+ }
+
+/* Color de fondo */ 
+
+body{
+    background-color: #EEF8D3;
+}
+
+/* Header */ 
+
+.img {
+    float: left;
+}
+
+.about {
+    float: right;
+    margin-right: 555px;
+    margin-top: 10px;
+}
+
+.MJname {
+    font-family: OpenSans;
+    line-height: 35px;
+    font-size: 75px;
+    font-weight: 800;
+    color: #F6ECE6;
+    -webkit-text-stroke-width: 4px;
+    -webkit-text-stroke-color: black;
+}
+
+.subtituloMJ{
+    line-height: 10px;
+    font-family: Bitter;
+    font-size: 35px;
+    font-weight: 800;
+    color: #9AB258;
+}
+
+.aboutParagraph{
+    line-height: 40px;
+    font-family: Bitter;
+    font-size: 30px;
+    color: #181E15;
+}
+
+.container {
+    display: flexbox;
+}
