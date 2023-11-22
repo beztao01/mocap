@@ -1,0 +1,11 @@
+/* importando fuentes */ 
+@import url(https://fonts.googleapis.com/css?family=Bitter);
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+
+.MJname {
+    font-family: Bitter;
+    font-size: 76 px;
+    color: #F6ECE6;
+    -webkit-text-stroke-width: 3px;
+    -webkit-text-stroke-color: black;
+}
