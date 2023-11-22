@@ -10,21 +10,20 @@
     src: url(/html/MJ/fonts/OpenSans.ttf);
  }
 
-/* Color de fondo */ 
-
-body{
-    background-color: #EEF8D3;
-}
-
 /* Header */ 
 
-.img {
-    float: left;
+img {
+   
+    max-width: auto;  
+    max-height:80%;  
 }
+
+
+/* cositos */
 
 .about {
     float: right;
-    margin-right: 555px;
+    margin-right: 25%;
     margin-top: 10px;
 }
 
@@ -54,5 +53,113 @@ body{
 }
 
 .container {
-    display: flexbox;
+    display: flex;
+    justify-content: space-around;
 }
+
+.itemHeader{
+    font-family: OpenSans;
+    font-size: 30px; 
+    color: #000000;
+    background-color: #9AB258;
+    border: none;
+    color: black;
+    padding: 5px 100px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+    /* cursor: pointer; */ 
+    border-radius: 50px;
+}
+
+.pfHeader{
+    font-family: OpenSans;
+    font-size: 30px; 
+    color: #A7CB46;
+    background-color: #181E15;
+    border: none;
+    padding: 5px 100px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+    /* cursor: pointer; */ 
+    border-radius: 50px;
+}
+
+.items{
+    list-style-type: none;
+    font-family: OpenSans;
+    font-weight: bold;
+    font-size: 20px; 
+    color: #5B6A3D;
+    background-color: #FFFFFF;
+    border: 2px solid #A7CB46;
+    padding: 5px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+    /* cursor: pointer; */ 
+    border-radius: 50px;
+}
+
+.pfItems{
+    list-style-type: none;
+    font-family: OpenSans;
+    font-weight: bold;
+    font-size: 20px; 
+    color: #5B6A3D;
+    background-color: #FFFFFF;
+    border: 2px solid #A7CB46;
+    padding: 5px 20px;
+    text-align: center;
+    text-decoration: none;
+    padding-right: 50px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 50px;
+}
+
+.pfItems:hover{
+    
+    color: #FFFFFF;
+    background-color: #A7CB46;
+    border: 2px solid #A7CB46;
+    padding: 5px 20px;
+    text-align: center;
+    text-decoration: none;
+    padding-right: 50px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 50px;
+}
+
+/* limites para wrap */
+
+.skills{
+    width: 350px;
+}
+
+.knowledge{
+    width: 450px;
+}
+
+.other{
+    width: 350px;
+}
+.Portfolio{
+    width: 300px;
+}
+
+a:link { text-decoration: none; }
+
+
+a:visited { text-decoration: none; }
+
+
+a:hover { text-decoration: none; }
+
+
+a:active { text-decoration: none; }
