@@ -4,16 +4,16 @@ body{
     font-family: Arial, Helvetica, sans-serif;
 }
 
-h1{
+/*h1{ 
     text-align: center;
     color:#e1efff;
     /*Esto lo agrego Majo*/
     /*text-shadow:2px 0 #fff, -2px 0 #fff, 0 2px #fff, 0 -2px #fff,
     1px 1px #fff, -1px -1px #fff, 1px -1px #fff, -1px 1px #fff;*/
-    background-color: #09324f;
+    /*background-color: #09324f;
     font-size: 36px;
     margin: 4px;
-}
+}*/
 
 h2{
     color: #f1c600;
